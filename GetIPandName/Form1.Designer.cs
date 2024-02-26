@@ -38,7 +38,6 @@
             this.txtUserName = new System.Windows.Forms.TextBox();
             this.txtLastTO = new System.Windows.Forms.TextBox();
             this.NComputerInfo = new System.Windows.Forms.NotifyIcon(this.components);
-            this.btnReload = new System.Windows.Forms.Button();
             this.lblOSEdition = new System.Windows.Forms.Label();
             this.lblDevice = new System.Windows.Forms.Label();
             this.txtOSEdition = new System.Windows.Forms.TextBox();
@@ -47,37 +46,21 @@
             this.txtOSVersion = new System.Windows.Forms.TextBox();
             this.lblSN = new System.Windows.Forms.Label();
             this.txtSN = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.txtFS = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.txtDriveH = new System.Windows.Forms.TextBox();
             this.lblbuild = new System.Windows.Forms.Label();
             this.txtOSBuild = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.lblMac = new System.Windows.Forms.Label();
             this.grbNetwork = new System.Windows.Forms.GroupBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.btnSync = new System.Windows.Forms.Button();
+            this.btnMinimize = new System.Windows.Forms.Button();
+            this.btnCopy = new System.Windows.Forms.Button();
             this.btnWUP = new System.Windows.Forms.Button();
             this.btnCP = new System.Windows.Forms.Button();
-            this.btnSCrefresh = new System.Windows.Forms.Button();
-            this.btnReloadNet = new System.Windows.Forms.Button();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.txtMWiFi = new System.Windows.Forms.TextBox();
-            this.txtMethernet = new System.Windows.Forms.TextBox();
-            this.txtVPN = new System.Windows.Forms.TextBox();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.lsbEthernet = new System.Windows.Forms.ListBox();
+            this.txtITSMessage = new System.Windows.Forms.TextBox();
             this.txtOSDate = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.txtDriveModel = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
             this.grbNetwork.SuspendLayout();
             this.groupBox3.SuspendLayout();
-            this.groupBox2.SuspendLayout();
-            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // lblCName
@@ -164,17 +147,6 @@
             this.NComputerInfo.Text = "Helpdesk Assistant";
             this.NComputerInfo.Visible = true;
             this.NComputerInfo.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.NComputerInfo_MouseDoubleClick);
-            // 
-            // btnReload
-            // 
-            this.btnReload.Location = new System.Drawing.Point(416, 421);
-            this.btnReload.Margin = new System.Windows.Forms.Padding(2);
-            this.btnReload.Name = "btnReload";
-            this.btnReload.Size = new System.Drawing.Size(330, 48);
-            this.btnReload.TabIndex = 11;
-            this.btnReload.Text = "Minimize Helpdesk Assistant";
-            this.btnReload.UseVisualStyleBackColor = true;
-            this.btnReload.Click += new System.EventHandler(this.BtnReload_Click);
             // 
             // lblOSEdition
             // 
@@ -266,50 +238,6 @@
             this.txtSN.TabIndex = 19;
             this.txtSN.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(6, 373);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(121, 19);
-            this.label2.TabIndex = 20;
-            this.label2.Text = "Drive Free Space:";
-            // 
-            // txtFS
-            // 
-            this.txtFS.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtFS.Location = new System.Drawing.Point(127, 370);
-            this.txtFS.Margin = new System.Windows.Forms.Padding(2);
-            this.txtFS.Name = "txtFS";
-            this.txtFS.ReadOnly = true;
-            this.txtFS.Size = new System.Drawing.Size(282, 27);
-            this.txtFS.TabIndex = 21;
-            this.txtFS.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(5, 409);
-            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(94, 19);
-            this.label4.TabIndex = 22;
-            this.label4.Text = "Drive Health:";
-            // 
-            // txtDriveH
-            // 
-            this.txtDriveH.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDriveH.Location = new System.Drawing.Point(127, 406);
-            this.txtDriveH.Margin = new System.Windows.Forms.Padding(2);
-            this.txtDriveH.Name = "txtDriveH";
-            this.txtDriveH.ReadOnly = true;
-            this.txtDriveH.Size = new System.Drawing.Size(282, 27);
-            this.txtDriveH.TabIndex = 23;
-            this.txtDriveH.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
             // lblbuild
             // 
             this.lblbuild.AutoSize = true;
@@ -343,182 +271,88 @@
             this.label3.TabIndex = 9;
             this.label3.Text = "Last Boot Time:";
             // 
-            // lblMac
-            // 
-            this.lblMac.AutoSize = true;
-            this.lblMac.Font = new System.Drawing.Font("Calibri", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMac.Location = new System.Drawing.Point(22, 218);
-            this.lblMac.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.lblMac.Name = "lblMac";
-            this.lblMac.Size = new System.Drawing.Size(39, 18);
-            this.lblMac.TabIndex = 29;
-            this.lblMac.Text = "VPN:";
-            // 
             // grbNetwork
             // 
+            this.grbNetwork.Controls.Add(this.label2);
             this.grbNetwork.Controls.Add(this.groupBox3);
-            this.grbNetwork.Controls.Add(this.btnReloadNet);
-            this.grbNetwork.Controls.Add(this.groupBox2);
-            this.grbNetwork.Controls.Add(this.txtVPN);
-            this.grbNetwork.Controls.Add(this.groupBox1);
-            this.grbNetwork.Controls.Add(this.lblMac);
+            this.grbNetwork.Controls.Add(this.txtITSMessage);
             this.grbNetwork.Location = new System.Drawing.Point(416, 12);
             this.grbNetwork.Name = "grbNetwork";
-            this.grbNetwork.Size = new System.Drawing.Size(330, 404);
+            this.grbNetwork.Size = new System.Drawing.Size(318, 353);
             this.grbNetwork.TabIndex = 30;
             this.grbNetwork.TabStop = false;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(189, 340);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(128, 13);
+            this.label2.TabIndex = 39;
+            this.label2.Text = "ITS Endpoint Engineering";
+            // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.btnSync);
+            this.groupBox3.Controls.Add(this.btnMinimize);
+            this.groupBox3.Controls.Add(this.btnCopy);
             this.groupBox3.Controls.Add(this.btnWUP);
             this.groupBox3.Controls.Add(this.btnCP);
-            this.groupBox3.Controls.Add(this.btnSCrefresh);
-            this.groupBox3.Location = new System.Drawing.Point(6, 302);
+            this.groupBox3.Location = new System.Drawing.Point(6, 238);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(309, 96);
-            this.groupBox3.TabIndex = 36;
+            this.groupBox3.Size = new System.Drawing.Size(311, 100);
+            this.groupBox3.TabIndex = 38;
             this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Applications && Tools";
+            this.groupBox3.Text = "Tools";
             // 
-            // btnSync
+            // btnMinimize
             // 
-            this.btnSync.Location = new System.Drawing.Point(6, 57);
-            this.btnSync.Name = "btnSync";
-            this.btnSync.Size = new System.Drawing.Size(294, 36);
-            this.btnSync.TabIndex = 3;
-            this.btnSync.Text = "Sync MDM Policies";
-            this.btnSync.UseVisualStyleBackColor = true;
-            this.btnSync.Click += new System.EventHandler(this.btnSync_Click);
+            this.btnMinimize.Location = new System.Drawing.Point(153, 59);
+            this.btnMinimize.Name = "btnMinimize";
+            this.btnMinimize.Size = new System.Drawing.Size(144, 35);
+            this.btnMinimize.TabIndex = 4;
+            this.btnMinimize.Text = "Minimize Window";
+            this.btnMinimize.UseVisualStyleBackColor = true;
+            this.btnMinimize.Click += new System.EventHandler(this.btnMinimize_Click);
+            // 
+            // btnCopy
+            // 
+            this.btnCopy.Location = new System.Drawing.Point(17, 58);
+            this.btnCopy.Name = "btnCopy";
+            this.btnCopy.Size = new System.Drawing.Size(129, 36);
+            this.btnCopy.TabIndex = 3;
+            this.btnCopy.Text = "Copy Device Information Data";
+            this.btnCopy.UseVisualStyleBackColor = true;
+            this.btnCopy.Click += new System.EventHandler(this.button1_Click);
             // 
             // btnWUP
             // 
-            this.btnWUP.Location = new System.Drawing.Point(207, 14);
+            this.btnWUP.Location = new System.Drawing.Point(152, 12);
             this.btnWUP.Name = "btnWUP";
-            this.btnWUP.Size = new System.Drawing.Size(94, 36);
+            this.btnWUP.Size = new System.Drawing.Size(145, 37);
             this.btnWUP.TabIndex = 2;
             this.btnWUP.Text = "Windows Updates";
             this.btnWUP.UseVisualStyleBackColor = true;
-            this.btnWUP.Click += new System.EventHandler(this.txtWUP_Click);
+            this.btnWUP.Click += new System.EventHandler(this.btnWUP_Click);
             // 
             // btnCP
             // 
-            this.btnCP.Location = new System.Drawing.Point(106, 14);
+            this.btnCP.Location = new System.Drawing.Point(17, 12);
             this.btnCP.Name = "btnCP";
-            this.btnCP.Size = new System.Drawing.Size(94, 36);
+            this.btnCP.Size = new System.Drawing.Size(129, 37);
             this.btnCP.TabIndex = 1;
             this.btnCP.Text = "Company Portal";
             this.btnCP.UseVisualStyleBackColor = true;
-            this.btnCP.Click += new System.EventHandler(this.txtCP_Click);
+            this.btnCP.Click += new System.EventHandler(this.btnCP_Click);
             // 
-            // btnSCrefresh
+            // txtITSMessage
             // 
-            this.btnSCrefresh.Location = new System.Drawing.Point(6, 14);
-            this.btnSCrefresh.Name = "btnSCrefresh";
-            this.btnSCrefresh.Size = new System.Drawing.Size(94, 36);
-            this.btnSCrefresh.TabIndex = 0;
-            this.btnSCrefresh.Text = "Software Center";
-            this.btnSCrefresh.UseVisualStyleBackColor = true;
-            this.btnSCrefresh.Click += new System.EventHandler(this.button1_Click_2);
-            // 
-            // btnReloadNet
-            // 
-            this.btnReloadNet.Location = new System.Drawing.Point(12, 252);
-            this.btnReloadNet.Name = "btnReloadNet";
-            this.btnReloadNet.Size = new System.Drawing.Size(303, 44);
-            this.btnReloadNet.TabIndex = 35;
-            this.btnReloadNet.Text = "Load Network Information";
-            this.btnReloadNet.UseVisualStyleBackColor = true;
-            this.btnReloadNet.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.Controls.Add(this.label6);
-            this.groupBox2.Controls.Add(this.label7);
-            this.groupBox2.Controls.Add(this.txtMWiFi);
-            this.groupBox2.Controls.Add(this.txtMethernet);
-            this.groupBox2.Location = new System.Drawing.Point(6, 114);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(309, 95);
-            this.groupBox2.TabIndex = 34;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Mac Address";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Calibri", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(16, 51);
-            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(45, 18);
-            this.label6.TabIndex = 33;
-            this.label6.Text = "Wi-Fi:";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Calibri", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(16, 21);
-            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(66, 18);
-            this.label7.TabIndex = 27;
-            this.label7.Text = "Ethernet:";
-            // 
-            // txtMWiFi
-            // 
-            this.txtMWiFi.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMWiFi.Location = new System.Drawing.Point(103, 51);
-            this.txtMWiFi.Margin = new System.Windows.Forms.Padding(2);
-            this.txtMWiFi.Name = "txtMWiFi";
-            this.txtMWiFi.ReadOnly = true;
-            this.txtMWiFi.Size = new System.Drawing.Size(199, 27);
-            this.txtMWiFi.TabIndex = 31;
-            this.txtMWiFi.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
-            // txtMethernet
-            // 
-            this.txtMethernet.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMethernet.Location = new System.Drawing.Point(103, 18);
-            this.txtMethernet.Margin = new System.Windows.Forms.Padding(2);
-            this.txtMethernet.Name = "txtMethernet";
-            this.txtMethernet.ReadOnly = true;
-            this.txtMethernet.Size = new System.Drawing.Size(199, 27);
-            this.txtMethernet.TabIndex = 30;
-            this.txtMethernet.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
-            // txtVPN
-            // 
-            this.txtVPN.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtVPN.Location = new System.Drawing.Point(109, 216);
-            this.txtVPN.Margin = new System.Windows.Forms.Padding(2);
-            this.txtVPN.Name = "txtVPN";
-            this.txtVPN.ReadOnly = true;
-            this.txtVPN.Size = new System.Drawing.Size(199, 27);
-            this.txtVPN.TabIndex = 32;
-            this.txtVPN.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.lsbEthernet);
-            this.groupBox1.Location = new System.Drawing.Point(6, 13);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(309, 95);
-            this.groupBox1.TabIndex = 33;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "IP Address";
-            // 
-            // lsbEthernet
-            // 
-            this.lsbEthernet.BackColor = System.Drawing.SystemColors.Menu;
-            this.lsbEthernet.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lsbEthernet.FormattingEnabled = true;
-            this.lsbEthernet.ItemHeight = 16;
-            this.lsbEthernet.Location = new System.Drawing.Point(6, 13);
-            this.lsbEthernet.Name = "lsbEthernet";
-            this.lsbEthernet.Size = new System.Drawing.Size(296, 68);
-            this.lsbEthernet.TabIndex = 0;
+            this.txtITSMessage.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtITSMessage.Location = new System.Drawing.Point(6, 19);
+            this.txtITSMessage.Multiline = true;
+            this.txtITSMessage.Name = "txtITSMessage";
+            this.txtITSMessage.Size = new System.Drawing.Size(303, 187);
+            this.txtITSMessage.TabIndex = 37;
+            this.txtITSMessage.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtOSDate
             // 
@@ -542,47 +376,19 @@
             this.label5.TabIndex = 32;
             this.label5.Text = "OS Install Date:";
             // 
-            // txtDriveModel
-            // 
-            this.txtDriveModel.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDriveModel.Location = new System.Drawing.Point(127, 442);
-            this.txtDriveModel.Margin = new System.Windows.Forms.Padding(2);
-            this.txtDriveModel.Name = "txtDriveModel";
-            this.txtDriveModel.ReadOnly = true;
-            this.txtDriveModel.Size = new System.Drawing.Size(282, 27);
-            this.txtDriveModel.TabIndex = 34;
-            this.txtDriveModel.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(5, 445);
-            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(92, 19);
-            this.label8.TabIndex = 35;
-            this.label8.Text = "Drive Model:";
-            // 
             // main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.ClientSize = new System.Drawing.Size(768, 514);
+            this.ClientSize = new System.Drawing.Size(723, 361);
             this.ControlBox = false;
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.txtDriveModel);
             this.Controls.Add(this.txtOSDate);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.grbNetwork);
             this.Controls.Add(this.txtOSBuild);
             this.Controls.Add(this.lblbuild);
-            this.Controls.Add(this.txtDriveH);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.txtFS);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.txtSN);
             this.Controls.Add(this.lblSN);
             this.Controls.Add(this.txtOSVersion);
@@ -591,7 +397,6 @@
             this.Controls.Add(this.txtOSEdition);
             this.Controls.Add(this.lblDevice);
             this.Controls.Add(this.lblOSEdition);
-            this.Controls.Add(this.btnReload);
             this.Controls.Add(this.txtLastTO);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txtUserName);
@@ -606,18 +411,16 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "main";
+            this.ShowIcon = false;
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Helpdesk Support";
+            this.Text = "Device Information";
             this.TopMost = true;
             this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
             this.Load += new System.EventHandler(this.Form1_Load);
             this.grbNetwork.ResumeLayout(false);
             this.grbNetwork.PerformLayout();
             this.groupBox3.ResumeLayout(false);
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
-            this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -633,7 +436,6 @@
         private System.Windows.Forms.TextBox txtUserName;
         private System.Windows.Forms.TextBox txtLastTO;
         public System.Windows.Forms.NotifyIcon NComputerInfo;
-        private System.Windows.Forms.Button btnReload;
         private System.Windows.Forms.Label lblOSEdition;
         private System.Windows.Forms.Label lblDevice;
         private System.Windows.Forms.TextBox txtOSEdition;
@@ -642,33 +444,19 @@
         private System.Windows.Forms.TextBox txtOSVersion;
         private System.Windows.Forms.Label lblSN;
         private System.Windows.Forms.TextBox txtSN;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox txtFS;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox txtDriveH;
         private System.Windows.Forms.Label lblbuild;
         private System.Windows.Forms.TextBox txtOSBuild;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label lblMac;
         private System.Windows.Forms.GroupBox grbNetwork;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.TextBox txtVPN;
-        private System.Windows.Forms.Button btnReloadNet;
-        private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox txtMWiFi;
-        private System.Windows.Forms.TextBox txtMethernet;
-        private System.Windows.Forms.ListBox lsbEthernet;
         private System.Windows.Forms.TextBox txtOSDate;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox txtITSMessage;
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.Button btnSCrefresh;
         private System.Windows.Forms.Button btnWUP;
         private System.Windows.Forms.Button btnCP;
-        private System.Windows.Forms.Button btnSync;
-        private System.Windows.Forms.TextBox txtDriveModel;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button btnCopy;
+        private System.Windows.Forms.Button btnMinimize;
     }
 }
 
