@@ -1,1 +1,1 @@
-# Wake Tech ITS
+# HelpDesk support
